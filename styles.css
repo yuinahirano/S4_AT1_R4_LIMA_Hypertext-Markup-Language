@@ -1,3 +1,4 @@
+/*cabeçalho*/
 header {
     display: flex;
     justify-content: center;
@@ -15,7 +16,7 @@ header h1 {
     text-align: center;
 }
 
-
+/*navegador com sobre nós, serviços, membros e resgates*/
 nav {
     padding: 10px;
     text-align: center;
@@ -34,6 +35,7 @@ nav a :hover{
     color: #caff8d;
 }
 
+/*section missão*/
 .missao {
     padding: 20px;
     margin: 180px;
@@ -41,7 +43,7 @@ nav a :hover{
     font-size: 17px;
 }
 
-
+/*corpo principal da página*/
 body {
     background-color: #F0DECC;
     padding: 0;
@@ -51,6 +53,7 @@ body {
 
 }
 
+/*imagens adicionadas*/
 img {
     width: 20%;
     max-width: 600px;
@@ -59,16 +62,21 @@ img {
     padding: 10px;
 }
 
+/*section com as imagens dos animais*/
 .imagens {
     background-color: #073C16;
     padding-bottom: 20px;
 }
 
+/*section com os objetivos e os valores juntos*/
 .objetivos {
+    width: 500px;
     margin: 13%;
     font-size: 18px;
+    display: grid;
 }
 
+/*parte com os detalhes, que o título aparece mais coisa quando clica*/
 .objetivos details {
     background-color: #81c43568;
     border-radius: 23px;
@@ -76,7 +84,7 @@ img {
     margin-right: 10%;
 }
 
-
+/*tudo relacionado ao rodapé*/
 .footer {
     padding: 10px;
 }
