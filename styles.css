@@ -31,7 +31,7 @@ nav a {
     padding: 10px;
 }
 
-nav a :hover{
+nav a :hover {
     color: #caff8d;
 }
 
@@ -41,6 +41,7 @@ nav a :hover{
     margin: 180px;
     color: #177d0a;
     font-size: 17px;
+    display: grid;
 }
 
 /*corpo principal da página*/
@@ -68,22 +69,33 @@ img {
     padding-bottom: 20px;
 }
 
-/*section com os objetivos e os valores juntos*/
+/*faz com que os itens da div fiquem um do lado do outro*/
+section{
+    display: flex;
+
+}
+
+/*div com os objetivos e os valores juntos*/
 .objetivos {
-    width: 500px;
+    background-color: #21cf0a5b;
+    border-radius: 23px;
+    width: 30%;
+    padding: 10px;
     margin: 13%;
     font-size: 18px;
-    display: grid;
 }
 
 /*parte com os detalhes, que o título aparece mais coisa quando clica*/
 .objetivos details {
-    background-color: #81c43568;
+    background-color: #52841968;
     border-radius: 23px;
     margin-left: 10%;
     margin-right: 10%;
 }
 
+.objetivos details p{
+    font-size: 14px;
+}
 /*tudo relacionado ao rodapé*/
 .footer {
     padding: 10px;
@@ -97,4 +109,3 @@ footer {
     background-color: #073C16;
     color: #86b74d;
 }
-
