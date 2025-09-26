@@ -28,9 +28,11 @@ nav a {
     background-color: #81c43568;
     border-radius: 13px;
     padding: 10px;
+    text-decoration: none;
 }
 
-nav a :hover {
+nav a:hover {
+    text-decoration: underline;
     color: #caff8d;
 }
 
@@ -91,10 +93,12 @@ section {
     padding: 10px;
     margin: 13%;
     font-size: 18px;
+    text-decoration: none;
 }
 
 /*parte com os detalhes, que o título aparece mais coisa quando clica*/
 .objetivos details {
+    text-decoration: none;
     background-color: #52841968;
     border-radius: 23px;
     margin-left: 10%;
