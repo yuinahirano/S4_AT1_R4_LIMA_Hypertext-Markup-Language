@@ -1,6 +1,5 @@
 /*cabeçalho*/
 header {
-    display: flex;
     justify-content: center;
     background-image: linear-gradient(#0b6424, #1b9b21, #98d651, #ade56e, #caff8d);
     background-size: cover;
@@ -71,8 +70,15 @@ img {
 
 }
 
+/*centraliza a imagem da logo e a deixa em formato circular*/
+.logo {
+    width: 30%;
+    margin: 0 auto; /*centraliza horizontalmente*/
+    border-radius: 150px;
+}
+
 /*faz com que os itens da div fiquem um do lado do outro*/
-section{
+section {
     display: flex;
 
 }
@@ -95,9 +101,10 @@ section{
     margin-right: 10%;
 }
 
-.objetivos details p{
+.objetivos details p {
     font-size: 14px;
 }
+
 /*tudo relacionado ao rodapé*/
 .footer {
     padding: 10px;
